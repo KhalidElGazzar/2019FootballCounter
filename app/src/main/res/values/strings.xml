@@ -3,4 +3,25 @@
 
     <string name="team_a">AC Milan</string>
     <string name="team_b">FC Munich</string>
+    <string name="reset_button">Reset</string>
+
+
+    <string name="team_a_goal">Goal</string>
+    <string name="team_a_foul">Foul</string>
+    <string name="team_a_yellow_card">Yellow Card</string>
+    <string name="team_a_red_card">Red Card</string>
+
+    <string name="team_b_goal">Goal</string>
+    <string name="team_b_foul">Foul</string>
+    <string name="team_b_yellow_card">Yellow Card</string>
+    <string name="team_b_red_card">Red Card</string>
+
+    <string name="team_a_yellow_c_content_desc">Yellow card for @string/team_a</string>
+    <string name="team_a_red_c_content_desc">Red card for @string/team_a</string>
+    <string name="team_a_foul_content_desc">Foul for @string/team_a</string>
+
+    <string name="team_b_yellow_c_content_desc">Yellow card for @string/team_b</string>
+    <string name="team_b_red_c_content_desc">Red card for @string/team_b</string>
+    <string name="team_b_foul_content_desc">Foul for @string/team_b</string>
+
 </resources>

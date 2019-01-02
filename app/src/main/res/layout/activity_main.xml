@@ -7,18 +7,17 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
         tools:context="com.example.android.courtcounter.MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -31,8 +30,8 @@
                     style="@style/textviews_style"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
                     android:gravity="center"
                     android:text="@string/team_a" />
 
@@ -55,6 +54,7 @@
                         android:layout_height="36dp"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/team_a_yellow_c_content_desc"
                         android:src="@drawable/yellowcard" />
 
                     <ImageView
@@ -62,6 +62,7 @@
                         android:layout_height="36dp"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/team_a_yellow_c_content_desc"
                         android:src="@drawable/redcard" />
 
                     <ImageView
@@ -69,6 +70,7 @@
                         android:layout_height="36dp"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/team_b_foul_content_desc"
                         android:src="@drawable/fouls2" />
                 </LinearLayout>
 
@@ -84,9 +86,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
                         android:text="0"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
@@ -98,9 +100,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
                         android:text="0"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
@@ -112,9 +114,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
                         android:text="0"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
@@ -124,22 +126,22 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:layout_marginLeft="18dp"
-                    android:layout_marginRight="18dp"
                     android:layout_marginTop="24dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="8dp"
                     android:background="#4CAF50"
                     android:onClick="goalForTeamA"
-                    android:text="goal" />
+                    android:text="@string/team_a_goal" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
+                    android:layout_marginBottom="8dp"
                     android:onClick="yellowCardForTeamA"
-                    android:text="Yellow Card" />
+                    android:text="@string/team_a_yellow_card" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -147,7 +149,7 @@
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
                     android:onClick="redCardForteamA"
-                    android:text="Red Card" />
+                    android:text="@string/team_a_red_card" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -155,14 +157,14 @@
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
                     android:onClick="foulForteamA"
-                    android:text="Foul" />
+                    android:text="@string/team_a_foul" />
             </LinearLayout>
 
             <View
                 android:layout_width="2dp"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="4dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
                 android:background="@android:color/darker_gray" />
 
             <LinearLayout
@@ -176,8 +178,8 @@
                     style="@style/textviews_style"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
                     android:gravity="center"
                     android:text="@string/team_b" />
 
@@ -200,6 +202,7 @@
                         android:layout_height="36dp"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/team_b_yellow_c_content_desc"
                         android:src="@drawable/yellowcard" />
 
                     <ImageView
@@ -207,6 +210,7 @@
                         android:layout_height="36dp"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/team_b_red_card"
                         android:src="@drawable/redcard" />
 
                     <ImageView
@@ -214,6 +218,7 @@
                         android:layout_height="36dp"
                         android:layout_margin="2dp"
                         android:layout_weight="1"
+                        android:contentDescription="@string/team_b_foul_content_desc"
                         android:src="@drawable/fouls2" />
                 </LinearLayout>
 
@@ -229,9 +234,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
                         android:text="0"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
@@ -243,9 +248,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
                         android:text="0"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
@@ -257,9 +262,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
                         android:text="0"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
@@ -269,22 +274,22 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:layout_marginLeft="18dp"
-                    android:layout_marginRight="18dp"
                     android:layout_marginTop="24dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="8dp"
                     android:background="#4CAF50"
                     android:onClick="goalForTeamB"
-                    android:text="goal" />
+                    android:text="@string/team_b_goal" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
+                    android:layout_marginBottom="8dp"
                     android:onClick="yellowCardForTeamB"
-                    android:text="Yellow Card" />
+                    android:text="@string/team_b_yellow_card" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -292,7 +297,7 @@
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
                     android:onClick="redCardForteamB"
-                    android:text="Red Card" />
+                    android:text="@string/team_b_red_card" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -300,7 +305,7 @@
                     android:layout_marginLeft="18dp"
                     android:layout_marginRight="18dp"
                     android:onClick="foulForteamB"
-                    android:text="Foul" />
+                    android:text="@string/team_b_foul" />
             </LinearLayout>
         </LinearLayout>
 
@@ -312,7 +317,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="8dp"
             android:onClick="reset"
-            android:text="Reset" />
+            android:text="@string/reset_button" />
 
     </RelativeLayout>
 
