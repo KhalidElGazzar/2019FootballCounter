@@ -1,11 +1,26 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <!-- Primary theme color of the app (sets background color of app bar) -->
+    <item name="colorPrimary">#FF9800</item>
 
+    <!-- Background color of buttons in the app -->
+    <item name="colorButtonNormal">#FF9800</item>
+</style>
+
+<style name="score_style" parent="@android:style/TextAppearance.Medium">
+    <!-- score style. -->
+    <item name="android:textSize">56sp</item>
+    <item name="android:color">#000000</item>
+    <item name="android:fontFamily">sans-serif</item>
+</style>
+
+<style name="textviews_style" parent="@android:style/TextAppearance.Medium">
+    <!-- score style. -->
+    <item name="android:textSize">28sp</item>
+    <item name="android:color">#616161</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+</style>
 </resources>
