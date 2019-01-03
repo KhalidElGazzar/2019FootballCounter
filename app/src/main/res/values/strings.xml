@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">2019FootballCounter</string>
 
-    <string name="team_a">AC Milan</string>
-    <string name="team_b">FC Munich</string>
+    <string name="team_a_name">AC Milan</string>
+    <string name="team_b_name">FC Munich</string>
     <string name="reset_button">Reset</string>
 
 
@@ -24,4 +24,13 @@
     <string name="team_b_red_c_content_desc">Red card for @string/team_b</string>
     <string name="team_b_foul_content_desc">Foul for @string/team_b</string>
 
+    <string name="team_a_score">0</string>
+    <string name="team_a_yellow_card_count">0</string>
+    <string name="team_a_red_card_count">0</string>
+    <string name="team_a_fouls_count">0</string>
+
+    <string name="team_b_score">0</string>
+    <string name="team_b_yellow_card_count">0</string>
+    <string name="team_b_red_card_count">0</string>
+    <string name="team_b_fouls_count">0</string>
 </resources>

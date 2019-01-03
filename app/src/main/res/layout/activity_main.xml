@@ -30,10 +30,10 @@
                     style="@style/textviews_style"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
                     android:gravity="center"
-                    android:text="@string/team_a" />
+                    android:text="@string/team_a_name" />
 
                 <TextView
                     android:id="@+id/team_a_score"
@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="24dp"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/team_a_score" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -86,10 +86,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
-                        android:paddingBottom="8dp"
-                        android:text="0"
+                        android:text="@string/team_a_yellow_card_count"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -100,10 +100,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
-                        android:paddingBottom="8dp"
-                        android:text="0"
+                        android:text="@string/team_a_yellow_card_count"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -114,10 +114,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
-                        android:paddingBottom="8dp"
-                        android:text="0"
+                        android:text="@string/team_a_fouls_count"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -178,10 +178,10 @@
                     style="@style/textviews_style"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
                     android:gravity="center"
-                    android:text="@string/team_b" />
+                    android:text="@string/team_b_name" />
 
                 <TextView
                     android:id="@+id/team_b_score"
@@ -190,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="24dp"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/team_b_score" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -234,10 +234,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
-                        android:paddingBottom="8dp"
-                        android:text="0"
+                        android:text="@string/team_b_yellow_card_count"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -248,10 +248,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
-                        android:paddingBottom="8dp"
-                        android:text="0"
+                        android:text="@string/team_b_red_card_count"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -262,10 +262,10 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:paddingBottom="8dp"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
-                        android:paddingBottom="8dp"
-                        android:text="0"
+                        android:text="@string/team_b_fouls_count"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="24sp"
                         android:textStyle="bold" />
